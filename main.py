@@ -32,7 +32,7 @@ def report(book_path, total_words, sorted_labeled_dicts,):
     print("--------- Character Count -------")
     for dict in sorted_labeled_dicts:
         if dict["char"].isalpha():
-            print(f"{dict["char"]}: {dict["count"]}")
+            print(f"{dict['char']}: {dict['count']}")
     print("============= END ===============")
 
 
